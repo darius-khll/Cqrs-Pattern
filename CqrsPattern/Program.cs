@@ -10,6 +10,14 @@ namespace CqrsPattern
     {
         static void Main(string[] args)
         {
+
         }
+    }
+
+    public class SaveDataCommand
+    {
+        public Guid Id { get; set; }
+
+        public string Name { get; set; }
     }
 }
