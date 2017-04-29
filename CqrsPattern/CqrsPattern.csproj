@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Cqrs\Command\Account.cs" />
     <Compile Include="Cqrs\Command\AccountNameSetEvent.cs" />
+    <Compile Include="Cqrs\Command\CreateAccountCommand.cs" />
+    <Compile Include="Cqrs\Command\CreateAccountCommandHandler.cs" />
     <Compile Include="Cqrs\Command\CreatedAccountEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
