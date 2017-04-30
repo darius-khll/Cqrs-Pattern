@@ -67,6 +67,10 @@
     <Compile Include="Cqrs\Command\CreateAccountCommand.cs" />
     <Compile Include="Cqrs\Command\CreateAccountCommandHandler.cs" />
     <Compile Include="Cqrs\Command\CreatedAccountEvent.cs" />
+    <Compile Include="Cqrs\Command\FakeAccountTable.cs" />
+    <Compile Include="Cqrs\Command\FakeAccountTableRow.cs" />
+    <Compile Include="Cqrs\Query\AccountReadModel.cs" />
+    <Compile Include="Cqrs\Query\AccountReportReadService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,9 +78,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Cqrs\Query\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
