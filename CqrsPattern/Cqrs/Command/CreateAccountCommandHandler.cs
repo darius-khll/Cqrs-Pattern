@@ -16,7 +16,7 @@ namespace CqrsPattern.Cqrs.Command
         public override void Handle(CreateAccountCommand command)
         {
             var account = new Account(Guid.NewGuid());
-            //account.SetName(command.FirstName, command.LastName);
+            account.SetName(command.FirstName, command.LastName);
 
             repository.Save(account);
         }
