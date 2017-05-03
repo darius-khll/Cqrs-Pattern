@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Cqrs\Command\Account.cs" />
     <Compile Include="Cqrs\Command\AccountNameSetEvent.cs" />
+    <Compile Include="Cqrs\Command\AccountReportDenormalizer.cs" />
     <Compile Include="Cqrs\Command\CreateAccountCommand.cs" />
     <Compile Include="Cqrs\Command\CreateAccountCommandHandler.cs" />
     <Compile Include="Cqrs\Command\CreatedAccountEvent.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Cqrs\Query\AccountReportReadService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleRunTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
