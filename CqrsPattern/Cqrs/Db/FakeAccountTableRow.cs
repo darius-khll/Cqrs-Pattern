@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CqrsPattern.Cqrs.Command
+namespace CqrsPattern.Cqrs.Db
 {
     public class FakeAccountTableRow
     {
