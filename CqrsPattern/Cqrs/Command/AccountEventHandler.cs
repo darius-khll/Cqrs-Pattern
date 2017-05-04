@@ -1,14 +1,15 @@
 ﻿using System.Linq;
 using SimpleCqrs.Eventing;
+using CqrsPattern.Cqrs.Db;
 
 namespace CqrsPattern.Cqrs.Command
 {
-    public class AccountReportDenormalizer : IHandleDomainEvents<AccountCreatedEvent>,
+    public class AccountEventHandler : IHandleDomainEvents<AccountCreatedEvent>,
                                              IHandleDomainEvents<AccountNameSetEvent>
     {
         private readonly FakeAccountTable accountTable;
 
-        public AccountReportDenormalizer(FakeAccountTable accountTable)
+        public AccountEventHandler(FakeAccountTable accountTable)
         {
             this.accountTable = accountTable;
         }
