@@ -1,5 +1,4 @@
-﻿using System;
-using SimpleCqrs.Eventing;
+﻿using SimpleCqrs.Eventing;
 
 namespace CqrsPattern.Cqrs.Command
 {
