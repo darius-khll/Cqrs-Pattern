@@ -63,11 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cqrs\Command\Account.cs" />
-    <Compile Include="Cqrs\Command\AccountNameSetEvent.cs" />
-    <Compile Include="Cqrs\Command\AccountEventHandler.cs" />
-    <Compile Include="Cqrs\Command\CreateAccountCommand.cs" />
-    <Compile Include="Cqrs\Command\CreateAccountCommandHandler.cs" />
-    <Compile Include="Cqrs\Command\CreatedAccountEvent.cs" />
+    <Compile Include="Cqrs\Command\Event\AccountNameSetEvent.cs" />
+    <Compile Include="Cqrs\Command\Event\AccountEventHandler.cs" />
+    <Compile Include="Cqrs\Command\Task\CreateAccountCommand.cs" />
+    <Compile Include="Cqrs\Command\Task\CreateAccountCommandHandler.cs" />
+    <Compile Include="Cqrs\Command\Event\CreatedAccountEvent.cs" />
     <Compile Include="Cqrs\Db\FakeAccountTable.cs" />
     <Compile Include="Cqrs\Db\FakeAccountTableRow.cs" />
     <Compile Include="Cqrs\Query\AccountReadModel.cs" />
