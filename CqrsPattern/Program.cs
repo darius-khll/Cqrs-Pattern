@@ -29,7 +29,7 @@ namespace CqrsPattern
             Console.WriteLine("####################");
             foreach (var account in accountReportReadModel.GetAccounts())
             {
-                Console.WriteLine(" Id: {0} Name: {1}", account.Id, account.Name);
+                Console.WriteLine("Id: {0} Name: {1}", account.Id, account.Name);
             }
 
             runtime.Shutdown();
